@@ -1,26 +1,32 @@
-<table>    
-    <tr>
-       <th colspan="3" Sở thích></th>
-    <td>
-
-    </td>
-        <td>           
-            <form>
-                
-            <input type="checkbox" name="Yourname" value="Thể thao">Thểthao
-            <input type="checkbox" name="Yourname" value="Âm nhạc">Âm nhạc
-            <input type="checkbox" name="Yourname" value="Đọc sách">Đọc sách
-            </form> 
-        </td>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Table simple </title>
+</head>
+<body>
+<table>
+    <h2>SỞ THÍCH CỦA BẠN</h2>
+    <th>Họ và tên:</th> 
+    <td><input type="text" name="Yourname"></td>
     </tr>
     <tr>
-        <td>Thứ 4</td>
-        <td>Âm Nhạc </td>
-        <td>Vui chơi</td>
-    </tr>
-    <tr>
-        <td>Thứ 5</td>
-        <td>Văn Học</td>
-        <td>Nhận Biết các giá trị sống</td>
-    </tr>
+        <th>Email:</th>
+    <td><input type="text" name="Email"></td>
+</tr>
+    <th>Sở thích:</th> 
+ <td>
+    <input type="checkbox" name="hobby" value="Thể thao">Thể thao
+    <input type="checkbox" name="hobby" value="Âm nhạc">Âm nhạc
+    <input type="checkbox" name="hobby" value="Đọc sách">Đọc sách<br>
+    <input type="checkbox" name="hobby" value="Lướt Web">Lướt Web
+    <input type="checkbox" name="hobby" value="Chơi games">Chơi games
+    <input type="checkbox" name="hobby" value="Điện ảnh">Điện ảnh<br>
+    <input type="checkbox" name="hobby" value="Du lịch">Du lịch<br>
+    <forn action="/action_page.php">    
+        <input type="submit" name="Submit Form">
+        <input type="Reset" name="Reset Form">
+    </forn>
+</td>
 </table>
+</body>
+</html>
